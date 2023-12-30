@@ -94,6 +94,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+SOONG_CONFIG_xiaomiSm6150Vars_livedisplay_support_anti_flicker := true
+
 # WiFi
 PRODUCT_PACKAGES += \
     TucanaWifiOverlay
