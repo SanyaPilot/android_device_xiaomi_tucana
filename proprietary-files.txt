@@ -343,7 +343,7 @@ vendor/firmware/ipa_fws.mdt
 -vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 
 # NFC
--vendor/lib/libsn100u_fw.so
+-vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
 # Sensors
 -vendor/bin/sensors.qti
