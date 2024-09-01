@@ -43,10 +43,6 @@ TARGET_SCREEN_DENSITY := 440
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-04-01
 
-# Sepolicy
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # Udfps
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
 TARGET_USES_FOD_ZPOS := true
