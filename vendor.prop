@@ -6,3 +6,7 @@ ro.vendor.audio.soundfx.usb=true
 ro.vendor.audio.us.type=mius
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=false
+
+# Fingerprint
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.sensor_location=540|1810|95
