@@ -44,7 +44,6 @@ TARGET_SCREEN_DENSITY := 440
 VENDOR_SECURITY_PATCH := 2022-04-01
 
 # Udfps
-TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
 TARGET_USES_FOD_ZPOS := true
 
 # Inherit from proprietary files

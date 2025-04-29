@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libudfpshandler
 
+$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/xiaomi:libudfps_extension.xiaomi)
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.lineage
