@@ -22,4 +22,8 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="tucana-user 11 RKQ1.200826.002 V13.0.2.0.RFDMIXM release-keys" \
+    BuildFingerprint=Xiaomi/tucana/tucana:11/RKQ1.200826.002/V13.0.2.0.RFDMIXM:user/release-keys
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
