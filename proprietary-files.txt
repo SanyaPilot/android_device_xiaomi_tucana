@@ -103,6 +103,7 @@ vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libdng_sdkvendor.so
 vendor/lib64/libflaw.so
 vendor/lib64/libft2vendor.so
+vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_optical_zoom_control.so
